@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Clan</title>
+
+    <style>
+        /* Hier ist dein CSS */
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #00bfff;
+        }
+
+        .team-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .member {
+            background: #2b2b2b;
+            border-radius: 15px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .member:hover {
+            transform: translateY(-5px);
+        }
+
+        .member img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        #team h3 {
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-size: 24px;
+            border-bottom: 2px solid #555;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>✦ Nexus Clan ✦</h1>
+    <nav>
+        <ul>
+            <li><a href="#team">Unser Team</a></li>
+            <li><a href="#discord">Discord</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="welcome">
+    <h2>Willkommen bei Nexus</h2>
+    <p>Wir spielen auf <strong>LegendBuild.de</strong> und <strong>Minevale.de</strong>!</p>
+</section>
+
+<section id="team">
+    <h2>Unser Team</h2>
+
+    <h3>Owner</h3>
+    <div class="team-row">
+        <div class="member">
+            <img src="images/skin1.png" alt="Play_Game_490">
+            <h4>Play_Game_490</h4>
+            <p>Rolle: Owner</p>
+        </div>
+    </div>
+
+    <h3>Co-Owner</h3>
+    <div class="team-row">
+        <div class="member">
+            <img src="images/skin2.png" alt="Janne_2803">
+            <h4>Janne_2803</h4>
+            <p>Rolle: Co-Owner</p>
+        </div>
+        <div class="member">
+            <img src="images/skin3.png" alt="SebiGeckoYT">
+            <h4>SebiGeckoYT</h4>
+            <p>Rolle: Co-Owner</p>
+        </div>
+    </div>
+
+    <h3>Admin</h3>
+    <div class="team-row">
+        <div class="member">
+            <img src="images/skin1.png" alt="Zomo">
+            <h4>Zomo</h4>
+            <p>Rolle: Admin</p>
+        </div>
+    </div>
+
+    <h3>Moderator</h3>
+    <div class="team-row">
+        <div class="member">
+            <img src="images/skin1.png" alt="Theo_knd">
+            <h4>Theo_knd</h4>
+            <p>Rolle: Moderator</p>
+        </div>
+    </div>
+
+    <h3>Supporter</h3>
+    <div class="team-row">
+        <div class="member">
+            <img src="images/skin1.png" alt="Juilan">
+            <h4>Juilan</h4>
+            <p>Rolle: Supporter</p>
+        </div>
+    </div>
+
+</section>
+
+<section id="discord">
+    <h2>Unser Discord</h2>
+    <p>Trete unserem Discord bei:</p>
+    <a href="https://discord.gg/gkfsQM3Z" target="_blank" class="discord-button">Zum Discord</a>
+</section>
+
+<footer>
+    <p>&copy; 2025 Nexus Clan. Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
